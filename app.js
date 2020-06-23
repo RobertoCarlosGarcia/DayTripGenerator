@@ -1,13 +1,11 @@
 "use strict";
 
-let dayTrip = ("Houston, Las Vegas, San Diego");
+let destinations = ["San Francisco", "Texas", "Florida", "New York"];
 
-    function shuffleArray(dayTrip){
-
-        let Houston = 0 
-        let LasVegas = 1 
-        let SanDiego = 2 
-        return Math.floor(math.Random() * 3);
-    }
-
-        console.log(itworks);
+function generateRandomTrip(){
+    let randomIndex = Math.floor(Math.random() * Math.floor(destinations.length)); 
+    let destination = destinations[randomIndex];
+    console.log(destination);
+     randomIndex = Math.floor(Math.random() * Math.floor(destinations.length));
+}
+  generateRandomTrip();
