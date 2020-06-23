@@ -15,17 +15,23 @@ randomIndex = Math.floor(Math.random() * Math.floor(restaurants.length));
      let restaurant = restaurants[randomIndex];
      console.log(restaurant);
 
-    randomIndex = Math.floor(Math.random() * Math.floor(transportations.length));
+randomIndex = Math.floor(Math.random() * Math.floor(transportations.length));
         let transportation = transportations[randomIndex];
         console.log(transportation);
 
-    randomIndex = Math.floor(Math.random() * Math.floor(entertainments.length));
+randomIndex = Math.floor(Math.random() * Math.floor(entertainments.length));
     let entertainment = entertainments[randomIndex];
     console.log(entertainment);
     
+    let dayTripSatisfaction = prompt("Are you satisified with your trip selection?");
+    if(dayTripSatisfaction === "yes"){
 
-
+    }
+    else{
+        generateRandomTrip()
+    }
+    
 }
   
-
 generateRandomTrip();
+
