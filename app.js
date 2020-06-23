@@ -3,7 +3,7 @@
 let destinations = ["San Francisco", "Texas", "Florida", "New York"];
 let restaurants = ["Outback", "Roadhouse", "Olive Garden", "Perrys"];
 let transportations = ["Train", "Car", "Airplane", "Subway"];
-
+let entertainments = ["casino", "baseball game", "museum", "opera"];
 
 
 function generateRandomTrip(){
@@ -19,6 +19,9 @@ randomIndex = Math.floor(Math.random() * Math.floor(restaurants.length));
         let transportation = transportations[randomIndex];
         console.log(transportation);
 
+    randomIndex = Math.floor(Math.random() * Math.floor(entertainments.length));
+    let entertainment = entertainments[randomIndex];
+    console.log(entertainment);
     
 
 
